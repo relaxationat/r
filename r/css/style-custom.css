@@ -1,0 +1,184 @@
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 1227px){
+
+body{
+
+	background-color: #0d0313;
+}
+
+
+.hed-aft{
+
+ 	background-image: url("../images/mass.jpg");
+ 	background-position: center;
+ }
+
+.aboutme-section{
+
+	height: 600px;
+	padding-top: 100px;
+	/*clip-path: polygon(100% -32% ,-186% 58%,100% 100%);*/
+}
+
+#toggler{
+	display: none;
+ 	margin-left: 95%;
+
+}
+
+input[type="checkbox"] + label {
+  display:inline-block; /* or block */
+  line-height:normal;
+  cursor:pointer;
+  padding: 3px 14px;
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  margin-left: 95%;
+}
+
+.name{
+
+	font-size: 90px;
+	margin-top: -40px;
+    color: white;
+}
+
+.after-menu img {
+
+	max-width: 50%;
+ 	max-height: 50%;
+	margin-top: 100px;
+}
+
+.after-menu{
+
+	width: 100%;
+	height: 700px;
+	background-position: center;
+	text-align: center;
+}
+
+.me{
+
+	float: left;
+	margin-left: 8%;
+	margin-top: 40px;
+}
+
+.me-text{
+
+	float: right;
+	font-size: 12pt;
+	margin-left: 0;
+	margin-right: 8%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 20px;
+	width: 600px;
+	height: 400px;
+	max-height: none;
+	background-color: white;
+	color: #707374;
+	text-transform: uppercase;
+}
+
+.me img{
+
+	margin:	none;
+	max-width: none;
+	max-height: none;
+}
+
+.cene{
+
+	margin-top: 30px;
+	height: 50px;
+	text-align: center;
+}
+.cene a{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+@media (hover: hover) {
+	.cene a:hover {
+
+		color: #7554ad;
+	}
+}
+
+.contact{
+
+	margin-top: 10px;
+	text-align: center;
+	width: 100%;
+	height: 700px;
+}
+
+.contact p{
+
+	font-size: 50px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.phone{
+
+	padding: 20px;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	float: left;
+	margin-left: 10%;
+}
+
+.message{
+
+	padding: 20px;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	float: right;
+	margin-right: 10%;
+}
+
+.mail{
+
+	padding: 20px;
+	background-color: white;
+	width: 300px;
+	height: 400px;
+	display: table;
+  	margin: 0 auto;
+}
+
+.contact img{
+
+	padding-top: 30%;
+}
+
+.contact h2{
+	padding-top: 50px;
+	font-size: 20px;
+}
+
+.contact-text {
+
+	font-size: 30px;
+	padding-top: 20px;
+}
+.section2{
+
+  	/*clip-path: polygon(100% 10% ,-418% 100%,100% 100%);*/
+
+}
+
+}
