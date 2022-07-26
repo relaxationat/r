@@ -38,9 +38,7 @@
 	align-items: center;
 	padding: 3%;
 }
-.container img{
-	width: 30%;
-}
+
 }
 /*--------------------------------------------------------------------------600*/
 @media only screen and (max-width: 600px){
@@ -62,9 +60,7 @@
 	height: 300px;
 	cursor: pointer;
 }
-.container img{
-	width: 40%;
-}
+
 .contact-wrap font{
 	font-size: 35pt;
 }
