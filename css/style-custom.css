@@ -1,184 +1,138 @@
-/* ----------------------------------------------------------------------------------------------------------------*/
-
-/* ----------------------------------------------------------------------------------------------------------------*/
-
-@media only screen and (min-width: 1227px){
-
-body{
-
-	background-color: #0d0313;
-}
-
-
-.hed-aft{
-
- 	background-image: url("../images/mass.jpg");
- 	background-position: center;
- }
-
-.aboutme-section{
-
-	height: 600px;
-	padding-top: 100px;
-	/*clip-path: polygon(100% -32% ,-186% 58%,100% 100%);*/
-}
-
-#toggler{
-	display: none;
- 	margin-left: 95%;
-
-}
-
-input[type="checkbox"] + label {
-  display:inline-block; /* or block */
-  line-height:normal;
-  cursor:pointer;
-  padding: 3px 14px;
-  background-color: #fff;
-  border-radius: 4px;
-  border: 1px solid #fff;
-  margin-left: 95%;
-}
-
-.name{
-
-	font-size: 90px;
-	margin-top: -40px;
-    color: white;
-}
-
-.after-menu img {
-
-	max-width: 50%;
- 	max-height: 50%;
-	margin-top: 100px;
-}
-
-.after-menu{
-
-	width: 100%;
-	height: 700px;
-	background-position: center;
-	text-align: center;
-}
-
-.me{
-
-	float: left;
-	margin-left: 8%;
-	margin-top: 40px;
-}
+/*--------------------------------------------------------------------------1400*/
+@media only screen and (max-width: 1400px){
 
 .me-text{
+	font-size: 10pt;
+}
+.aboutme-section img{
+	width: 30%;
+	height: 30%;
+}
 
-	float: right;
-	font-size: 12pt;
-	margin-left: 0;
-	margin-right: 8%;
-	margin-top: 0px;
-	margin-bottom: 0px;
+
+}
+/*--------------------------------------------------------------------------900*/
+@media only screen and (max-width: 900px){
+
+.me-text{
+	font-size: 7pt;
+}
+.aboutme-section img{
+	width: 30%;
+	height: 30%;
+}
+.container{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
 	padding: 20px;
-	width: 600px;
-	height: 400px;
-	max-height: none;
+	background-color: white;
+	width: 60%;
+	height: 300px;
+	cursor: pointer;
+}
+.contact{
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3%;
+}
+.container img{
+	width: 30%;
+}
+}
+/*--------------------------------------------------------------------------600*/
+@media only screen and (max-width: 600px){
+
+.me-text{
+	font-size: 5pt;
+}
+.aboutme-section img{
+	width: 35%;
+	height: 35%;
+}
+.container{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
+	padding: 20px;
+	background-color: white;
+	width: 50%;
+	height: 300px;
+	cursor: pointer;
+}
+.container img{
+	width: 40%;
+}
+.contact-wrap font{
+	font-size: 35pt;
+}
+
+}
+/*--------------------------------------------------------------------------450*/
+@media only screen and (max-width: 450px){
+
+.after-menu{
+	display: flex;
+	justify-content: center;
+	padding: 30%;
+	background-image: url("../images/mass.jpg");
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.after-menu img{
+	width: 200%;
+	height: 80%;
+}
+
+.aboutme-section{
+	display: flex;
+	flex-flow: nowrap column;
+	align-content: space-between;
+
+}
+.me-text{
+
+	font-size: 7pt;
+	padding: 4%;
+	margin: 0 0 0 0;
+	width: 70%;
+	height: 50%;
 	background-color: white;
 	color: #707374;
 	text-transform: uppercase;
 }
 
-.me img{
-
-	margin:	none;
-	max-width: none;
-	max-height: none;
+.aboutme-section img{
+	width: 45%;
+	height:45%;
 }
-
-.cene{
-
-	margin-top: 30px;
-	height: 50px;
-	text-align: center;
+.contact-wrap font{
+	font-size: 18pt;
 }
-.cene a{
-	color: white;
-	text-transform: uppercase;
-	text-decoration: none;
-	transition: 0.4s;
-}
-
-@media (hover: hover) {
-	.cene a:hover {
-
-		color: #7554ad;
-	}
-}
-
-.contact{
-
-	margin-top: 10px;
-	text-align: center;
-	width: 100%;
-	height: 700px;
-}
-
-.contact p{
-
-	font-size: 50px;
-	text-transform: uppercase;
-	color: white;
-	text-align: center;
-	padding-bottom: 80px;
-}
-
-.phone{
-
+.container{
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: space-around;
 	padding: 20px;
 	background-color: white;
-	width: 300px;
-	height: 400px;
-	float: left;
-	margin-left: 10%;
+	width: 50%;
+	height: 300px;
+	cursor: pointer;
+}
+.container h2{
+	font-size: 11pt;
+}
+.container h3{
+	font-size: 9pt;
 }
 
-.message{
-
-	padding: 20px;
-	background-color: white;
-	width: 300px;
-	height: 400px;
-	float: right;
-	margin-right: 10%;
-}
-
-.mail{
-
-	padding: 20px;
-	background-color: white;
-	width: 300px;
-	height: 400px;
-	display: table;
-  	margin: 0 auto;
-}
-
-.contact img{
-
-	padding-top: 30%;
-}
-
-.contact h2{
-	padding-top: 50px;
-	font-size: 20px;
-}
-
-.contact-text {
-
-	font-size: 30px;
-	padding-top: 20px;
-}
-.section2{
-
-  	/*clip-path: polygon(100% 10% ,-418% 100%,100% 100%);*/
 
 }
 
-}
