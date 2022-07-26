@@ -64,17 +64,17 @@
 <div class="contact-wrap">
 	<div align="center"><font color="white">BOOK AN APPOINTMENT!</font></div>
 	<div class="contact">
-			<div class="container shadow2" onclick="location.href='tel:+436505257237';">
+			<div class="container shadow2" onclick="location.href='tel:+436505257237';"onmouseover="mov(this)" onmouseout="mou(this)">
 				<span>PHONE</span>
 				<img src="images/phone.png">
 				<a href="tel:+436505257237"><h2>+43 6505257237</h2></a>
 			</div><br>
-			<div class="container shadow2" onclick="location.href='mailto:relaxation.at@gmail.com';">
+			<div class="container shadow2" onclick="location.href='mailto:relaxation.at@gmail.com';"onmouseover="mov(this)" onmouseout="mou(this)">
 				<span>MAIL</span>
 				<img src="images/mail.png">
 				<a href="mailto:relaxation.at@gmail.com"><h3>relaxation.at@gmail.com</h2></a>
 			</div><br>
-			<div class="container shadow2" onclick="location.href='tel:+436505257237';">
+			<div class="container shadow2" onclick="location.href='tel:+436505257237';" onmouseover="mov(this)" onmouseout="mou(this)">
 				<span>MESSAGE</span>
 				<img src="images/message.png">
 				<a href="tel:+436505257237"><h2>+43 6505257237</h2></a>
@@ -91,7 +91,16 @@
 </footer>
 </div>
 <script type="text/javascript">
+	const mov = (el) => {
+			el.className = "container shadow2 clicked"
+
+
+	}
+	const mou = (el) =>{
 	
+			el.className = "container shadow2"
+
+	}
 </script>
 </body>
 </html>
