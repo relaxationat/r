@@ -28,7 +28,6 @@
 	justify-content: space-around;
 	padding: 20px;
 	background-color: white;
-	width: 60%;
 	height: 300px;
 	cursor: pointer;
 }
@@ -47,11 +46,10 @@
 @media only screen and (max-width: 600px){
 
 .me-text{
-	font-size: 5pt;
+	font-size: 7pt;
 }
 .aboutme-section img{
-	width: 35%;
-	height: 35%;
+	min-width:200px;
 }
 .container{
 	display: flex;
@@ -60,7 +58,7 @@
 	justify-content: space-around;
 	padding: 20px;
 	background-color: white;
-	width: 50%;
+	width: 180px;
 	height: 300px;
 	cursor: pointer;
 }
@@ -74,6 +72,7 @@
 }
 /*--------------------------------------------------------------------------450*/
 @media only screen and (max-width: 450px){
+
 
 .after-menu{
 	display: flex;
@@ -101,17 +100,14 @@
 	font-size: 7pt;
 	padding: 4%;
 	margin: 0 0 0 0;
-	width: 70%;
+	width: 90%;
 	height: 50%;
 	background-color: white;
 	color: #707374;
 	text-transform: uppercase;
 }
 
-.aboutme-section img{
-	width: 45%;
-	height:45%;
-}
+
 .contact-wrap font{
 	font-size: 18pt;
 }
@@ -122,16 +118,10 @@
 	justify-content: space-around;
 	padding: 20px;
 	background-color: white;
-	width: 50%;
 	height: 300px;
 	cursor: pointer;
 }
-.container h2{
-	font-size: 11pt;
-}
-.container h3{
-	font-size: 9pt;
-}
+
 
 
 }

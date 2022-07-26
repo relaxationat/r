@@ -78,9 +78,8 @@ body{
 }
 
 .aboutme-section img{
-
-	width: 20%;
-	height:20%;
+	max-width: 300px;
+	
 }
 .me-text{
 	font-size: 12pt;
