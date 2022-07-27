@@ -51,18 +51,43 @@ body{
 	background-color: #0d0313 !important;
 }
 
+.menu{
+	display: flex;
+	background-color: rgb(0, 0, 0,0.5);
+	width: 100%;
+	position: fixed;
+	justify-content: space-between;
+	align-items: center;
+	height: 40px;
+
+}
+
+.menu a{
+	text-transform: none;
+}
+
+.menu-left{
+	color: #fff;
+	font-family: customFont;
+	margin: 2px 0 0 4%;
+}
+
+.menu-right{
+	margin: 0 4% 0 0;
+}
+
 .after-menu{
 	display: flex;
-	justify-content: center;
-	padding: 9%;
+	align-items: center;
+ 	justify-content: center;
+ 	height: 700px;
 	background-image: url("../images/mass.jpg");
 	background-position: center;
 	background-size: cover;
 	
 }
 .after-menu img{
-	width: 80%;
-	height: 80%;
+	max-width: 1100px;
 }
 .aboutme-section{
 	display: flex;
@@ -70,22 +95,26 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	padding: 4%;
-	background-color: #7554ad;
+	background-image: url("../images/aboutme-section.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-color: #7554ad;
 	animation-name: grad;
   animation-duration: 10s;
   animation-delay: 2s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: infinite;*/
 }
 
 .aboutme-section img{
-	max-width: 300px;
-	
+	min-width: 350px;
+	margin: 0 0 0 4% ;
 }
 .me-text{
 	font-size: 12pt;
-	padding: 4%;
-	margin: 0 3% 0 0;
-	width: 30%;
+	padding: 3%;
+	margin: 0 4% 0 0;
+	max-width: 550px;
 	height: 50%;
 	background-color: white;
 	color: #707374;

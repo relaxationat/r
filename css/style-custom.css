@@ -1,36 +1,45 @@
-/*--------------------------------------------------------------------------1400*/
-@media only screen and (max-width: 1400px){
+/*--------------------------------------------------------------------------1150*/
+@media only screen and (max-width: 1150px){
 
-.me-text{
-	font-size: 10pt;
+.after-menu img{
+	max-width: 750px;
 }
+.after-menu{
+	height: 600px;
+}
+
 .aboutme-section img{
-	width: 30%;
-	height: 30%;
+	margin: 0 0 0 0;
 }
-
-
-}
-/*--------------------------------------------------------------------------900*/
-@media only screen and (max-width: 900px){
-
-.me-text{
-	font-size: 7pt;
-}
-.aboutme-section img{
-	width: 30%;
-	height: 30%;
-}
-.container{
-	display: flex;
+.aboutme-section{
 	flex-flow: column;
-	align-items: center;
-	justify-content: space-around;
-	padding: 20px;
-	background-color: white;
-	height: 300px;
-	cursor: pointer;
 }
+.me-text{
+	margin: 0 0 0 0;
+}
+
+.contact{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 3%;
+}
+
+}
+/*--------------------------------------------------------------------------800*/
+@media only screen and (max-width: 800px){
+
+.after-menu img{
+	max-width: 550px;
+}
+.after-menu{
+	height: 500px;
+}
+.aboutme-section img{
+	min-width: 300px;
+}
+
 .contact{
 	display: flex;
 	flex-flow: column;
@@ -40,85 +49,76 @@
 }
 
 }
+
 /*--------------------------------------------------------------------------600*/
 @media only screen and (max-width: 600px){
 
-.me-text{
-	font-size: 7pt;
+.after-menu img{
+	max-width: 400px;
+}
+.after-menu{
+	height: 500px;
+
 }
 .aboutme-section img{
-	min-width:200px;
-}
-.container{
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: space-around;
-	padding: 20px;
-	background-color: white;
-	width: 180px;
-	height: 300px;
-	cursor: pointer;
+	width: 250px;
+	min-width: 0px;
 }
 
 .contact-wrap font{
-	font-size: 35pt;
+	font-size: 30pt;
 }
 
+.me-text{
+
+	font-size: 10pt;
+	
 }
+
 /*--------------------------------------------------------------------------450*/
 @media only screen and (max-width: 450px){
 
 
+.after-menu img{
+	max-width: 300px;
+}
 .after-menu{
-	display: flex;
-	justify-content: center;
-	padding: 30%;
-	background-image: url("../images/mass.jpg");
-	background-position: center;
-	background-size: cover;
+	height: 400px;
+
+}
+.aboutme-section img{
+	width:230px;
+	min-width: 0px;
+}
+
+
+.me-text{
+
+	font-size: 8pt;
 	
 }
 
+}
+
+/*--------------------------------------------------------------------------300*/
+@media only screen and (max-width: 300px){
+
+
 .after-menu img{
-	width: 200%;
-	height: 80%;
+	max-width: 230px;
 }
-
-.aboutme-section{
-	display: flex;
-	flex-flow: nowrap column;
-	align-content: space-between;
+.after-menu{
+	height: 350px;
 
 }
-.me-text{
-
-	font-size: 7pt;
-	padding: 4%;
-	margin: 0 0 0 0;
-	width: 90%;
-	height: 50%;
-	background-color: white;
-	color: #707374;
-	text-transform: uppercase;
+.aboutme-section img{
+	width: 220px;
+	min-width: 0px;
 }
-
 
 .contact-wrap font{
-	font-size: 18pt;
-}
-.container{
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: space-around;
-	padding: 20px;
-	background-color: white;
-	height: 300px;
-	cursor: pointer;
+	font-size: 23pt;
 }
 
 
-
 }
-
