@@ -4,6 +4,10 @@
 	font-family: Sans-Serif;
 }
 
+html {
+    scroll-behavior: smooth !important;
+}
+
 hr{
 	width: 15%;
 }
