@@ -8,7 +8,7 @@
 	height: 600px;
 }
 
-.aboutme-section img{
+.owner{
 	margin: 0 0 0 0;
 }
 .aboutme-section{
@@ -19,6 +19,7 @@
 }
 
 .contact{
+
 	display: flex;
 	flex-flow: row;
 	justify-content: space-between;
@@ -36,7 +37,7 @@
 .after-menu{
 	height: 500px;
 }
-.aboutme-section img{
+.owner{
 	min-width: 300px;
 }
 
@@ -60,7 +61,7 @@
 	height: 500px;
 
 }
-.aboutme-section img{
+.owner{
 	width: 250px;
 	min-width: 0px;
 }
@@ -71,7 +72,7 @@
 
 .me-text{
 
-	font-size: 10pt;
+	font-size: 11pt;
 	
 }
 
@@ -86,15 +87,14 @@
 	height: 400px;
 
 }
-.aboutme-section img{
+.owner{
 	width:230px;
 	min-width: 0px;
 }
 
-
 .me-text{
 
-	font-size: 8pt;
+	font-size: 10pt;
 	
 }
 
@@ -103,7 +103,6 @@
 /*--------------------------------------------------------------------------300*/
 @media only screen and (max-width: 300px){
 
-
 .after-menu img{
 	max-width: 230px;
 }
@@ -111,11 +110,13 @@
 	height: 350px;
 
 }
-.aboutme-section img{
+.owner{
 	width: 220px;
 	min-width: 0px;
 }
-
+.me-text{
+	font-size: 8pt;
+}
 .contact-wrap font{
 	font-size: 23pt;
 }

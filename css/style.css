@@ -4,8 +4,8 @@
 	font-family: Sans-Serif;
 }
 
-html {
-    scroll-behavior: smooth !important;
+html{
+	scroll-behavior: smooth !important;
 }
 
 hr{
@@ -17,6 +17,10 @@ a{
 	text-transform: uppercase;
 	text-decoration: none;
 	transition: 0.4s;
+}
+
+a:active {
+		background-color: #7554ad;
 }
 
 .container a:active {
@@ -59,7 +63,7 @@ body{
 	display: flex;
 	background-color: rgb(0, 0, 0,0.5);
 	width: 100%;
-	position: fixed;
+	/*position: fixed;*/
 	justify-content: space-between;
 	align-items: center;
 	height: 40px;
@@ -67,7 +71,7 @@ body{
 }
 
 .menu a{
-	text-transform: none;
+	text-transform: uppercase;
 }
 
 .menu-left{
@@ -110,11 +114,28 @@ body{
   animation-iteration-count: infinite;*/
 }
 
-.aboutme-section img{
+.owner{
 	min-width: 350px;
 	margin: 0 0 0 4% ;
 }
+
+.rocks-left{
+	width: 30px;
+}
+
+.rocks-right{
+	width: 30px;
+	transform: scaleX(-1);
+}
+
+.me-text h2{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
 .me-text{
+	text-align: center;
 	font-size: 12pt;
 	padding: 3%;
 	margin: 0 4% 0 0;
@@ -130,7 +151,7 @@ body{
 	height: 300px;
 }
 
-.cene{
+.price{
 	display: flex;
 	justify-content: center;
 	padding: 2%;
@@ -152,10 +173,6 @@ body{
 }
 
 .container:active {
-		background-color: #7554ad;
-}
-
-.cene a:active {
 		background-color: #7554ad;
 }
 
