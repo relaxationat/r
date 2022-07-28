@@ -5,7 +5,7 @@ let btn = document.querySelector(".menu button"); /// menu button
 const closeMenu = () =>{
 	menu.style.display = "none";
 	btn.className = "menu-button"
-	btn.innerText = "≡"
+	btn.innerText = "="
 }
 
 /// responsive menu
@@ -13,11 +13,11 @@ const mobileMenu = () => {
 	btn.className = "menu-button-clicked";
 	menu.style.display = "block";
 
-	if (btn.innerText === "-") {
+	if (btn.innerText === "~") {
 		closeMenu();
 		return;
 	}
-	btn.innerText = "-"
+	btn.innerText = "~"
 }
 
 /// close menu when clicked link
@@ -31,13 +31,16 @@ if (window.innerWidth<451) {
 }
 
 /// contact
-const mov = (el) => {
-		el.className = "container shadow2 clicked"
 
+const mov = (el) => {
+	if (window.innerWidth>801) {
+		el.className = "container shadow2 hovered"
+	}
 
 	}
 const mou = (el) =>{
-	
-		el.className = "container shadow2"
+	if (window.innerWidth>801) {
+		el.className = "container shadow2 not-hovered"
+	}
 
 	}
