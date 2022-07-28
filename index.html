@@ -31,8 +31,12 @@
 <div class="menu">
 	<div class="menu-left">Relaxation</div>
 	<div class="menu-right">
-		<a href="#price">Prices</a>&nbsp &nbsp
-		<a href="#contact">Contact</a>
+		<button onclick="mobileMenu()">≡</button>
+		<ul>
+			<li><a href="#price">Prices</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		
 	</div>
 </div>
 <div class="after-menu">
@@ -97,17 +101,6 @@
 	</div>
 </footer>
 </div>
-<script type="text/javascript">
-	const mov = (el) => {
-			el.className = "container shadow2 clicked"
-
-
-	}
-	const mou = (el) =>{
-	
-			el.className = "container shadow2"
-
-	}
-</script>
+<script src="js/script.js"></script>
 </body>
 </html>

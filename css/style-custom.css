@@ -79,6 +79,26 @@
 /*--------------------------------------------------------------------------450*/
 @media only screen and (max-width: 450px){
 
+.menu-right button{
+	display: block;
+}
+
+.menu-right ul{
+	display: none;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 40px;
+
+}
+
+.menu-right li{
+	display: flex;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
+}
 
 .after-menu img{
 	max-width: 300px;
