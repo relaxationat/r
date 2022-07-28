@@ -4,15 +4,13 @@ let btn = document.querySelector(".menu button"); /// menu button
 ///close menu
 const closeMenu = () =>{
 	menu.style.display = "none";
-	btn.style.backgroundColor="#fff";
-	btn.style.color="#000";
+	btn.className = "menu-button"
 	btn.innerText = "≡"
 }
 
 /// responsive menu
 const mobileMenu = () => {
-	btn.style.backgroundColor="#7554ad";
-	btn.style.color="#fff";
+	btn.className = "menu-button-clicked";
 	menu.style.display = "block";
 
 	if (btn.innerText === "-") {

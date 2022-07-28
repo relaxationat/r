@@ -79,7 +79,11 @@
 /*--------------------------------------------------------------------------450*/
 @media only screen and (max-width: 450px){
 
-.menu-right button{
+.menu-button{
+	display: block;
+}
+
+.menu-button-clicked{
 	display: block;
 }
 
