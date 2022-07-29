@@ -30,6 +30,32 @@ if (window.innerWidth<451) {
 	});
 }
 
+/// animation fadeMove
+
+logo = document.querySelector(".after-menu .fadeMove");
+let animationInterval = setInterval(()=>{
+	logo.classList.remove("fadeMove");
+},500);
+
+/// animation moveAnimation
+
+window.onscroll = () =>{
+	let fromTop = this.scrollY;
+	let x = fromTop/2;
+	x = Math.round(x);
+	if (window.innerWidth>=1150 & x>=0 & x<=100) {
+		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+90}px`;
+	}else if(window.innerWidth<1600 & window.innerWidth>=800 & x>=0 & x<=100){
+		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
+	}else if(window.innerWidth<800 & window.innerWidth>=330 & x>=0 & x<=100){
+		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
+	}else if( x>=0 & x<=50){
+		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
+	}
+	
+};
+
+
 /// contact
 
 const mov = (el) => {

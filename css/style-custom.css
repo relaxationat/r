@@ -6,6 +6,8 @@
 }
 .after-menu{
 	height: 600px;
+	background-size: 170%;
+	background-position: 50% -50px;
 }
 
 .owner{
@@ -36,6 +38,7 @@
 }
 .after-menu{
 	height: 500px;
+	background-size: 190%;
 }
 .owner{
 	min-width: 300px;
@@ -59,6 +62,7 @@
 }
 .after-menu{
 	height: 500px;
+	background-size: 260%;
 
 }
 .owner{
@@ -95,7 +99,6 @@
 	right: 0;
 	top: 40px;
 
-
 }
 
 .menu-right li{
@@ -110,6 +113,7 @@
 }
 .after-menu{
 	height: 400px;
+	background-size: 300%;
 
 }
 .owner{
@@ -133,7 +137,7 @@
 }
 .after-menu{
 	height: 350px;
-
+	background-size: 360%;
 }
 .owner{
 	width: 220px;
