@@ -43,13 +43,9 @@ window.onscroll = () =>{
 	let fromTop = this.scrollY;
 	let x = fromTop/2;
 	x = Math.round(x);
-	if (window.innerWidth>=1150 & x>=0 & x<=100) {
+	if (window.innerWidth>=1150 & x>=0 & x<=90) {
 		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+90}px`;
-	}else if(window.innerWidth<1600 & window.innerWidth>=800 & x>=0 & x<=100){
-		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
-	}else if(window.innerWidth<800 & window.innerWidth>=330 & x>=0 & x<=100){
-		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
-	}else if( x>=0 & x<=50){
+	}else if(x>=0 & x<=100){
 		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
 	}
 	
