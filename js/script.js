@@ -32,10 +32,10 @@ if (window.innerWidth<451) {
 
 /// animation fadeMove
 
-logo = document.querySelector(".after-menu img");
+logo = document.querySelector(".after-menu .fadeMove");
 let animationInterval = setInterval(()=>{
-	logo.className = "fadeMove";
-},500);
+	logo.classList.remove("fadeMove");
+},400);
 
 /// animation moveAnimation
 
