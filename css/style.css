@@ -45,6 +45,19 @@ a:active {
 	 	color: white;
 		background-color: #7554ad;
 		background-blend-mode: overlay;
+		transition: 0.4s;
+		transform: scale(1.08);
+	}
+}
+
+@media (hover: hover) {
+	 .price button:hover {
+	 	transition: 0.4s;
+	 	color: white;
+		background-color: #7554ad;
+		background-blend-mode: overlay;
+		transition: 0.4s;
+		transform: scale(1.08);
 	}
 }
 
@@ -62,9 +75,11 @@ a:active {
 	transition: 0.4s;
 	transform: scale(1);
 }
+
 body{
 	background-color: #0d0313 !important;
 }
+
 
 .menu{
 	display: flex;
@@ -74,7 +89,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	height: 40px;
-	z-index: 1;
+	z-index: 100;
 }
 
 .menu a{
@@ -104,7 +119,7 @@ body{
 .menu-button{
 	display: none;
 	border-radius: 10px;
-	width: 30px;
+	width: 50px;
 	color: #fff;
 	border-width: 2px;
 	border-color: #fff;
@@ -117,7 +132,7 @@ body{
 .menu-button-clicked{
 	display: none;
 	border-radius: 10px;
-	width: 30px;
+	width: 50px;
 	color: #fff;
 	border-width: 2px;
 	border-color: #fff;
@@ -158,6 +173,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+
 	/*background-color: #7554ad;
 	animation-name: grad;
   animation-duration: 10s;
@@ -208,6 +224,52 @@ body{
 	padding: 2%;
 }
 
+.price img{
+	display: none;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 9%;
+	z-index: 80;
+	max-width: 80%;
+	max-height: 80%;
+	padding: 30px;
+	margin: auto;
+
+}
+
+.price button{
+	border-radius: 10px;
+	width: 60px;
+	color: #000;
+	border-width: 2px;
+	border-color: #fff;
+	border-style: solid;
+	background-color: #fff;
+	text-align: center;
+	height: 20px;
+	transition: 0.4s;
+	cursor: pointer;
+
+}
+
+.price button:hover{
+	transform: scale(1.25);
+}
+.overlay{
+	display: none;
+	position: fixed;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 50;
+	cursor: pointer;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 .contact-wrap{
 	display: flex;
 	flex-flow: column;
@@ -246,6 +308,7 @@ body{
 	width: 200px;
 	height: 350px;
 	cursor: pointer;
+	transition: 0.4s;
 }
 
 

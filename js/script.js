@@ -45,24 +45,22 @@ window.onscroll = () =>{
 	x = Math.round(x);
 	if (window.innerWidth>=1150 & x>=0 & x<=90) {
 		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+90}px`;
+
 	}else if(x>=0 & x<=100){
 		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
 	}
 	
 };
 
+/// popUpModal 
+let prices = document.querySelector(".price img");
+let overlay = document.querySelector(".overlay");
+const popUpModal = () =>{
+	prices.style.display = "block";
+	overlay.style.display = "block";
+}
 
-/// contact
-
-const mov = (el) => {
-	if (window.innerWidth>801) {
-		el.className = "container shadow2 hovered"
-	}
-
-	}
-const mou = (el) =>{
-	if (window.innerWidth>801) {
-		el.className = "container shadow2 not-hovered"
-	}
-
-	}
+overlay.addEventListener("click", () =>{
+	prices.style.display = "none";
+	overlay.style.display = "none";
+});
