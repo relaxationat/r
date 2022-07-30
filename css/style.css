@@ -250,12 +250,14 @@ body{
 	height: 20px;
 	transition: 0.4s;
 	cursor: pointer;
-
 }
 
-.price button:hover{
+@media(hover: hover){
+	.price button:hover{
 	transform: scale(1.25);
+	}
 }
+
 .overlay{
 	display: none;
 	position: fixed;

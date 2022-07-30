@@ -58,9 +58,22 @@ let overlay = document.querySelector(".overlay");
 const popUpModal = () =>{
 	prices.style.display = "block";
 	overlay.style.display = "block";
-}
 
-overlay.addEventListener("click", () =>{
+	overlay.addEventListener("click", () =>{
+
 	prices.style.display = "none";
 	overlay.style.display = "none";
-});
+
+	});
+
+	document.addEventListener("keydown", key =>{
+			if(key.keyCode === 27){
+				prices.style.display = "none";
+				overlay.style.display = "none";
+			}	
+	});
+
+}
+
+
+
