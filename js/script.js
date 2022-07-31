@@ -22,13 +22,35 @@ const mobileMenu = () => {
 
 /// close menu when clicked link
 
-let linkMenu = document.querySelectorAll(".menu-right li");
+let linkMenu = document.querySelectorAll(".menu-right a");
+
 
 if (window.innerWidth<451) {
 	linkMenu.forEach((e)=>{
 		e.addEventListener("click",closeMenu);
 	});
 }
+
+/// animation hrAnimation
+
+const hrAnimation = (e) =>{
+	hr = e.target.nextElementSibling;
+	hr.className = "hovered";
+}
+
+
+/// menu animation
+
+if (window.innerWidth>450) {
+	linkMenu.forEach((e)=>{
+		e.addEventListener("mouseover",hrAnimation);
+		e.addEventListener("mouseout",(e)=>{
+			hr = e.target.nextElementSibling;
+			hr.className = "not-hover";
+		});
+	});
+}
+
 
 /// animation fadeMove
 
@@ -74,6 +96,9 @@ const popUpModal = () =>{
 	});
 
 }
+
+
+
 
 
 

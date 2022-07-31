@@ -2,6 +2,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: Sans-Serif;
+	-webkit-tap-highlight-color: transparent;
 }
 
 html{
@@ -26,11 +27,7 @@ a:active {
 .container a:active {
   color: white;
 }
-@media (hover: hover) {
-	 a:hover {
-		color: #7554ad;
-	}
-}
+
 
 @media (hover: hover) {
 		.container a:hover {
@@ -41,10 +38,6 @@ a:active {
 
 @media (hover: hover) {
 	 .container:hover {
-	 	transition: 0.4s;
-	 	color: white;
-		background-color: #7554ad;
-		background-blend-mode: overlay;
 		transition: 0.4s;
 		transform: scale(1.08);
 	}
@@ -52,7 +45,6 @@ a:active {
 
 @media (hover: hover) {
 	 .price button:hover {
-	 	transition: 0.4s;
 	 	color: white;
 		background-color: #7554ad;
 		background-blend-mode: overlay;
@@ -66,20 +58,10 @@ a:active {
   src: url(../fonts/Streetwear.otf) format('opentype');
 }
 
-.hovered{
-	transition: 0.4s;
-	transform: scale(1.08);
-}
-
-.not-hovered{
-	transition: 0.4s;
-	transform: scale(1);
-}
 
 body{
 	background-color: #0d0313 !important;
 }
-
 
 .menu{
 	display: flex;
@@ -103,7 +85,14 @@ body{
 }
 
 .menu-right{
-	margin: 0 4% 0 0;	
+	margin: 2px 4% 0 0;	
+}
+
+.not-hover{
+	background-color: #fff;
+	border-color: #fff;
+	transition: 0.4s ease;
+	width: 15px;
 }
 
 .menu-right ul{
@@ -113,6 +102,22 @@ body{
 	display: flex;
 	justify-content: space-around;
 	flex-flow: row nowrap;
+}
+
+@media (hover: hover){
+	.hovered{
+		transition: 0.4s ease;
+		background-color: #fff;
+		border-color: #fff;
+		width: 100%;
+	}
+}
+
+.menu-right li{
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
 
 }
 
@@ -127,6 +132,7 @@ body{
 	background-color: transparent;
 	text-align: center;
 	height: 20px;
+
 }
 
 .menu-button-clicked{
@@ -183,6 +189,7 @@ body{
 
 .owner{
 	min-width: 350px;
+	border-radius: 50%;
 	margin: 0 0 0 4% ;
 }
 
@@ -203,6 +210,7 @@ body{
 
 .me-text{
 	text-align: center;
+	border-radius: 40px;
 	font-size: 12pt;
 	padding: 3%;
 	margin: 0 4% 0 0;
@@ -289,6 +297,7 @@ body{
 
 .container:active {
 		background-color: #7554ad;
+
 }
 
 .container a{
@@ -296,6 +305,7 @@ body{
 	text-decoration: underline;
 	font-size: 10pt;
 	transition: 0.4s;
+
 }
 .container img{
 	width: 50%;
@@ -305,6 +315,7 @@ body{
 	flex-flow: column;
 	align-items: center;
 	justify-content: space-around;
+	border-radius: 40px;
 	padding: 20px;
 	background-color: white;
 	width: 200px;

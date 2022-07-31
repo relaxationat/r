@@ -91,6 +91,10 @@
 	display: block;
 }
 
+.menu-right{
+	margin: 0 4% 0 0;	
+}
+
 .menu-right ul{
 	display: none;
 	position: absolute;
