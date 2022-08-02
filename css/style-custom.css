@@ -56,33 +56,6 @@
 
 /*--------------------------------------------------------------------------600*/
 @media only screen and (max-width: 600px){
-
-.after-menu img{
-	max-width: 400px;
-}
-.after-menu{
-	height: 500px;
-	background-size: 260%;
-
-}
-.owner{
-	width: 250px;
-	min-width: 0px;
-}
-
-.contact-wrap font{
-	font-size: 30pt;
-}
-
-.me-text{
-
-	font-size: 11pt;
-	
-}
-
-/*--------------------------------------------------------------------------450*/
-@media only screen and (max-width: 450px){
-
 .menu-button{
 	display: block;
 }
@@ -111,6 +84,33 @@
 	justify-content: center;
 	align-items: center;
 }
+
+.after-menu img{
+	max-width: 400px;
+}
+
+.after-menu{
+	height: 500px;
+	background-size: 260%;
+
+}
+.owner{
+	width: 250px;
+	min-width: 0px;
+}
+
+.contact-wrap font{
+	font-size: 30pt;
+}
+
+.me-text{
+
+	font-size: 11pt;
+	
+}
+
+/*--------------------------------------------------------------------------450*/
+@media only screen and (max-width: 450px){
 
 .after-menu img{
 	max-width: 300px;

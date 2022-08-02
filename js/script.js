@@ -25,7 +25,7 @@ const mobileMenu = () => {
 let linkMenu = document.querySelectorAll(".menu-right a");
 
 
-if (window.innerWidth<451) {
+if (window.innerWidth<601) {
 	linkMenu.forEach((e)=>{
 		e.addEventListener("click",closeMenu);
 	});
@@ -41,7 +41,7 @@ const hrAnimation = (e) =>{
 
 /// menu animation
 
-if (window.innerWidth>450) {
+if (window.innerWidth>600) {
 	linkMenu.forEach((e)=>{
 		e.addEventListener("mouseover",hrAnimation);
 		e.addEventListener("mouseout",(e)=>{
