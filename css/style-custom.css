@@ -4,11 +4,7 @@
 .after-menu img{
 	max-width: 750px;
 }
-.after-menu{
-	height: 600px;
-	background-size: 170%;
-	background-position: 50% -50px;
-}
+
 
 .owner{
 	margin: 0 0 0 0;
@@ -36,10 +32,7 @@
 .after-menu img{
 	max-width: 550px;
 }
-.after-menu{
-	height: 500px;
-	background-size: 190%;
-}
+
 .owner{
 	min-width: 300px;
 }
@@ -89,11 +82,7 @@
 	max-width: 400px;
 }
 
-.after-menu{
-	height: 500px;
-	background-size: 260%;
 
-}
 .owner{
 	width: 250px;
 	min-width: 0px;
@@ -115,11 +104,7 @@
 .after-menu img{
 	max-width: 300px;
 }
-.after-menu{
-	height: 400px;
-	background-size: 300%;
 
-}
 .owner{
 	width:230px;
 	min-width: 0px;
@@ -139,10 +124,7 @@
 .after-menu img{
 	max-width: 230px;
 }
-.after-menu{
-	height: 350px;
-	background-size: 360%;
-}
+
 .owner{
 	width: 220px;
 	min-width: 0px;

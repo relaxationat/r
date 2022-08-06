@@ -34,9 +34,6 @@ a{
 	transition: 0.4s;
 }
 
-a:active {
-		background-color: #7554ad;
-}
 
 div.anchor {
     display: block;
@@ -174,12 +171,12 @@ body{
 	display: flex;
 	align-items: center;
  	justify-content: center;
- 	height: 700px;
+ 	height: 100vh;
 	background-image: url("../images/mass.jpg");
 	background-repeat: no-repeat;
-	background-size: 130%;
-	background-position: 50% -90px;
-	transition: all 0.3s ease;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 	
 }
 .after-menu img{
@@ -200,7 +197,7 @@ body{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-
+	background-attachment: fixed;
 	/*background-color: #7554ad;
 	animation-name: grad;
   animation-duration: 10s;

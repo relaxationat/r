@@ -59,8 +59,12 @@ let animationInterval = setInterval(()=>{
 	logo.classList.remove("fadeMove");
 },400);
 
-/// animation moveAnimation
 
+
+
+
+/// animation moveAnimation
+/*
 window.onscroll = () =>{
 	let fromTop = this.scrollY;
 	let x = fromTop/2;
@@ -72,7 +76,7 @@ window.onscroll = () =>{
 		document.querySelector(".after-menu").style.backgroundPosition =`50% -${x+50}px`;
 	}
 	
-};
+};*/
 
 /// popUpModal 
 let prices = document.querySelector(".price img");
