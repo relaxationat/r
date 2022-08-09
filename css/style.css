@@ -257,7 +257,7 @@ body{
 	margin: 4%;
 	height: 50vh;
 	color: #e5eaf5;
-
+	z-index: -1;
 }
 
 .quote-wrap{
