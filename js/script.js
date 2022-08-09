@@ -101,6 +101,83 @@ const popUpModal = () =>{
 
 }
 
+/// gallery
+
+
+const popUpImage = (img, type) =>{
+
+	overlay.style.display = "block";
+	document.querySelector(`.${type}Img`).style.display = "block";
+	document.querySelector(`.${type}Img`).style.padding = "0";
+	document.querySelector(`.${type}Img`).setAttribute("src", img.getAttribute("src"));
+
+	overlay.addEventListener("click", () =>{
+		overlay.style.display = "none";
+		document.querySelector(`.${type}Img`).style.display = "none";
+	});
+
+	document.addEventListener("keydown", key =>{
+			if(key.keyCode === 27){
+				document.querySelector(`.${type}Img`).style.display = "none";
+				overlay.style.display = "none";
+			}	
+	});
+}
+
+
+
+leftArrow = document.querySelector(".leftArrow");
+rightArrow = document.querySelector(".rightArrow");
+let slideImages = document.querySelectorAll(".row img");
+
+
+let slideSh = [];
+slideImages.forEach((image)=>{
+	image.addEventListener("click",(img)=>{
+		popUpImage(img.target, "gallery");
+	});
+	slideSh.push(image.getAttribute("src"));
+});
+
+let i = 0;
+
+slide = document.querySelector(".slideshow img");
+	slide.addEventListener("click",(image)=>{
+		popUpImage(image.target, "slide");
+	});
+
+const moveBack = (i) =>{
+	
+	slide.setAttribute("src", `${slideSh[i]}`)
+	
+}
+
+const moveFrwd = (i) =>{
+	slide.setAttribute("src", `${slideSh[i]}`)
+	
+}
+
+
+leftArrow.addEventListener("click", ()=>{
+	i=i-1;
+	if (i>=0 & i<=slideSh.length -1) {
+		moveBack(i);
+	}else{
+		i = slideSh.length -1;
+		moveBack(i);
+	}
+	
+});
+rightArrow.addEventListener("click",()=>{
+	i=i+1;
+	if (i>=0 & i<=slideSh.length -1) {
+		moveFrwd(i);
+	}else{
+		i = 0;
+		moveFrwd(i);
+	}
+});
+
 
 
 

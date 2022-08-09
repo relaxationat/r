@@ -35,6 +35,7 @@
 		<button class="menu-button" onclick="mobileMenu()">=</button>
 		<ul>
 			<li><a href="#about-me">About Me</a><hr class="not-hover"></li>
+			<li><a href="#gallery">Gallery</a><hr class="not-hover"></li>
 			<li><a href="#location">Location</a><hr class="not-hover"></li>
 			<li><a href="#price">Prices</a><hr class="not-hover"></li>
 			<li><a href="#contact">Contact</a><hr class="not-hover"></li>
@@ -52,16 +53,16 @@
 	<div class="anchor" id="about-me"></div>
 <div class="aboutme-section">
 		
-		<img class="owner shadow1" src="images/300x300.png"><br>
+		<img class="owner" src="images/300x300.png"><br>
 		
-	<span class="me-text shadow1" >
+	<span class="me-text" >
 
 		<h2><img class="rocks-left" src="images/spa.png"> &nbsp About Me &nbsp <img class="rocks-right" src="images/spa.png"> </h2><br>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				<font color="#7554ad" style="font-weight: bold;">Lorem ipsum</font> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				tempor incididunt ut labore et dolore magna aliqua. <font color="#7554ad" style="font-weight: bold;">Ut enim </font>ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
@@ -69,36 +70,77 @@
 				</span>
 	</div>
 </div>
+<div class="quote">
+	<div class="quote-wrap">
+		"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua."
+	
+	</div>
+<div class="anchor" id="gallery"></div>
+</div>
+
+<div class="gallery-name"><span>Gallery</span></div>
+
+<div class="gallery-wrap">
+	
+	<div class="gallery" align="center">
+		<img class="galleryImg" src="images/placeholder.png">
+		<div class="row">
+			<img src="images/slide/slide1.jpg">
+			<img src="images/slide/slide2.jpg">
+			<img src="images/slide/slide3.png">
+			<img src="images/slide/slide4.jpg">
+		</div>
+		<div class="row">
+			<img src="images/slide/slide5.jpg">
+			<img src="images/slide/slide6.jpg">
+			<img src="images/slide/slide7.png">
+			<img src="images/slide/slide8.png">
+		</div>
+
+		<div class="slideshow">
+			<div class="leftArrow"></div><img src="images/slide/slide1.jpg"><div class="rightArrow"></div>
+			<img class="slideImg" src="images/placeholder.png">
+		</div>
+	</div>
+</div>
 
 <div class="location">
-	<div class="anchor" id="location"></div>
+<div class="anchor" id="location"></div>
 	<div align="center"><b><font color="white">Visit us!</font></b><br></div>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1370.1660691446414!2d14.447772589549256!3d46.620200064328756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47700ea7b4471fbf%3A0x30aa07084cea0789!2zQmFobndlZyAyMCwgOTEzMSwg0JDRg9GB0YLRgNC40ZjQsA!5e0!3m2!1ssr!2srs!4v1658844275365!5m2!1ssr!2srs" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 <div class="price">
 	<div class="anchor" id="price"></div>
-	<button onclick="popUpModal()" class="shadow2"><b>Prices</b></button>
+	<button onclick="popUpModal()" class="btn1"><b>PRICES</b></button>
 	<img src="images/cene.png">
 </div>
 
 <div class="contact-wrap">
 	<div class="anchor" id="contact"></div>
-	<div align="center"><font color="white">BOOK AN APPOINTMENT!</font></div>
+	<div align="center"><font color="#e5eaf5">BOOK AN APPOINTMENT!</font></div>
 	<div class="contact">
-			<div class="container shadow2" onclick="location.href='tel:+436505257237';">
-				<span>PHONE</span>
-				<img src="images/phone.png">
-				<a href="tel:+436505257237"><h2>+43 6505257237</h2></a>
+			<div >
+				<button class="btn1" onclick="location.href='tel:+436505257237';">
+					<span>PHONE</span>
+					&nbsp<img src="images/phone.png">
+					<!---<a href="tel:+436505257237"><h2>+43 6505257237</h2></a>--->
+				</button>
+				
 			</div><br>
-			<div class="container shadow2 " onclick="location.href='mailto:relaxation.at@gmail.com';">
-				<span>MAIL</span>
-				<img src="images/mail.png">
-				<a href="mailto:relaxation.at@gmail.com"><h3>relaxation.at@gmail.com</h2></a>
+			<div >
+				<button class="btn1" onclick="location.href='mailto:relaxation.at@gmail.com';">
+					<span>MAIL</span>
+					&nbsp<img src="images/mail.png">
+					<!---<a href="mailto:relaxation.at@gmail.com"><h3>relaxation.at@gmail.com</h2></a>--->
+				</button>
 			</div><br>
-			<div class="container shadow2 " onclick="location.href='sms:+436505257237';">
-				<span>MESSAGE</span>
-				<img src="images/message.png">
-				<a href="sms:+436505257237"><h2>+43 6505257237</h2></a>
+			<div >
+				<button class="btn1" onclick="location.href='sms:+436505257237';">
+					<span>MESSAGE</span>
+					&nbsp<img src="images/message.png">
+					<!---<a href="sms:+436505257237"><h2>+43 6505257237</h2></a>--->
+				</button>
 			</div>
 
 	</div>
