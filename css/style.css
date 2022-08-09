@@ -255,12 +255,13 @@ body{
 	justify-content: center;
 	align-items: center;
 	margin: 4%;
-	height: 50vh;
+	height: 30vh;
 	color: #e5eaf5;
 	z-index: -1;
 }
 
 .quote-wrap{
+	margin-top: 3%;
 	max-width:1300px;
 	word-spacing: 2px;
 	font-style: italic;
@@ -269,14 +270,22 @@ body{
 	font-size: 30pt;
 }
 
+.gallery-wrap{
+	width: 100%;
+	height: 800px;
+	display: flex;
+	flex-flow: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
 .gallery{
 
-	margin-top: 2%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column;
-	max-width: 100%;
+	width: 100%;
 	height: 900px;
 	background-color: #e5eaf5;
 }
@@ -319,20 +328,18 @@ body{
 	cursor: pointer;
 }
 
+
 .gallery-name{
-	margin-top: -400px;
-	background: linear-gradient(180deg, #21232b 50%, #e5eaf5 50%);
-	height: 200px;
 	width: 100%;
+	background: linear-gradient(180deg, #21232b 50%, #e5eaf5 50%);
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	z-index: 10;
 }
 
 .gallery-name span{
+	padding: 20px 30px 20px 20px;
 	text-align: center;
-	padding: 20px 5px 20px 20px;
 	font-family: customFont;
 	color: #d0bdf4;
 	background: -webkit-linear-gradient(-90deg, #d0bdf4 40%, #7554ad);
@@ -516,6 +523,28 @@ body{
 .contact span{
 	font-size: 20pt;
 	font-weight: bold;
+	color: ;
+}
+
+footer{
+	background-color:#353743;
+}
+
+footer a{
+	text-decoration: underline;
+	color: #a0d2eb;
+	text-transform: none;
+
+}
+
+@media(hover: hover){
+	footer img[src*="images/facebook.png"] {
+		cursor: pointer;
+	}
+}
+
+footer img[src*="images/facebook.png"] {
+	max-width: 100px;
 }
 
 /* animations */

@@ -23,8 +23,8 @@
 	font-size: 25pt;
 }
 
-.gallery{
-	height: 700px;
+.gallery-wrap{
+	height: 600px;
 }
 
 .gallery img{
@@ -53,9 +53,7 @@
 	min-width: 300px;
 }
 
-.quote{
-	height:300px;
-}
+
 
 .quote-wrap{
 	max-width:600px;
@@ -66,6 +64,15 @@
 	max-width: 110px;
 	cursor: pointer;
 }
+
+.gallery-name {
+	height: 200px;
+}
+
+.gallery-wrap{
+	height: 500px;
+}
+
 
 .contact{
 	display: flex;
@@ -125,7 +132,7 @@
 }
 
 .quote{
-	height: 500px;
+	height: 300px;
 }
 
 .quote-wrap{
@@ -133,8 +140,8 @@
 	font-size: 18pt;
 }
 
-.gallery{
-	height: 400px;
+.gallery-wrap{
+	height: 500px;
 }
 
 .gallery img{
@@ -143,10 +150,8 @@
 	cursor: pointer;
 }
 
-
 .gallery-name span{
-	padding-right: 5%;
-	font-size:70px;
+	font-size: 80px;
 }
 
 .contact-wrap font{
@@ -171,7 +176,7 @@
 }
 
 .quote{
-	height: 700px;
+	height: 200px;
 }
 
 .quote-wrap{
@@ -179,8 +184,8 @@
 	font-size: 14pt;
 }
 
-.gallery{
-	height: 400px;
+.gallery-name span{
+	font-size: 60px;
 }
 
 .slideshow{
@@ -199,15 +204,6 @@
 	cursor: pointer;
 }
 
-.gallery-name{
-	height: 300px;
-}
-
-.gallery-name span{
-	padding-right: 5%;
-	font-size:60px;
-}
-
 
 }
 
@@ -224,6 +220,10 @@
 }
 .me-text{
 	font-size: 10pt;
+}
+
+.gallery-name span{
+	font-size: 50px;
 }
 
 .slideshow{

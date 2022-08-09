@@ -108,7 +108,6 @@ const popUpImage = (img, type) =>{
 
 	overlay.style.display = "block";
 	document.querySelector(`.${type}Img`).style.display = "block";
-	document.querySelector(`.${type}Img`).style.height = "200px";
 	document.querySelector(`.${type}Img`).style.padding = "0";
 	document.querySelector(`.${type}Img`).setAttribute("src", img.getAttribute("src"));
 
