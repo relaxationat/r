@@ -270,14 +270,14 @@ body{
 }
 
 .gallery{
-	padding: 50px;
+
 	margin-top: 2%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-flow: column;
 	max-width: 100%;
-	height: 500px;
+	height: 900px;
 	background-color: #e5eaf5;
 }
 
@@ -320,9 +320,9 @@ body{
 }
 
 .gallery-name{
-	background-color: transparent;
-	position: absolute;
-	margin: -105px 0 0 0 ;
+	margin-top: -400px;
+	background: linear-gradient(180deg, #21232b 50%, #e5eaf5 50%);
+	height: 200px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -332,7 +332,7 @@ body{
 
 .gallery-name span{
 	text-align: center;
-	padding-right: 5%;
+	padding: 20px 5px 20px 20px;
 	font-family: customFont;
 	color: #d0bdf4;
 	background: -webkit-linear-gradient(-90deg, #d0bdf4 40%, #7554ad);
