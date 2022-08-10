@@ -190,6 +190,10 @@
      z-index: -1;
 }
  .quote-wrap{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: column-reverse;
      margin-top: 3%;
      max-width:1300px;
      word-spacing: 2px;
@@ -197,6 +201,16 @@
      text-align: center;
      vertical-align: center;
      font-size: 30pt;
+}
+ model-viewer{
+     width: 100px;
+     height: 100px;
+     margin: 0, auto;
+     --progress-bar-color: transparent;
+     --poster-color: transparent;
+}
+ model-viewer#reveal {
+     --poster-color: transparent;
 }
 /*----------------------------------------------------GALLERY SECTION----------------------------------------------------*/
  .gallery-wrap{
