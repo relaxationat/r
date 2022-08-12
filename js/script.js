@@ -153,7 +153,6 @@ const moveFrwd = (i) => {
 
 }
 
-
 leftArrow.addEventListener("click", () => {
    i = i - 1;
    if (i >= 0 & i <= slideSh.length - 1) {
@@ -162,8 +161,8 @@ leftArrow.addEventListener("click", () => {
       i = slideSh.length - 1;
       moveBack(i);
    }
-
 });
+
 rightArrow.addEventListener("click", () => {
    i = i + 1;
    if (i >= 0 & i <= slideSh.length - 1) {
@@ -173,3 +172,4 @@ rightArrow.addEventListener("click", () => {
       moveFrwd(i);
    }
 });
+
