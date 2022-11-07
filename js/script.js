@@ -2,12 +2,11 @@ let menu = document.querySelector(".menu ul"); /// menu
 let btn = document.querySelector(".menu-button"); /// menu button
 let menuright = document.querySelector(".menu-right ul"); /// menu right
 let linkMenu = document.querySelectorAll(".menu-right a");
-btn.dataClicked = "1"
+
 
 //menu animation
 const menuAnim = (i) => {
     if (i == 1) {
-        menuright.style.display = "flex";
         document.querySelector(".menu-right").className = "menu-right menuAnimation";
         document.querySelector('.menuButtonAnim1').style.transform = 'rotate(-45deg)';
         document.querySelector('.menuButtonAnim2').style.transform = 'rotate(45deg)';
@@ -20,7 +19,6 @@ const menuAnim = (i) => {
 }
 /// close menu
 const closeMenu = () => {
-
     btn.setAttribute("data-Clicked", "0");
     document.querySelector(".menu-right").className = "menu-right menuAnimationReverse";
     document.querySelector('.menuButtonAnim1').style.transform = 'rotate(0)';
